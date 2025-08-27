@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "./study.module.css";
 import Task from "@/components/Task/Task";
 
 const tasks = [
@@ -20,13 +20,13 @@ const tasks = [
   },
 ];
 
-export default function HomePage() {
+export default function StudyPage() {
   return (
     <>
-      <section className={styles.hero}>
+      <section className={styles.community}>
         <div className={styles.content}>
           <div className={styles.textBlock}>
-            <h1 className={styles.heading}>Hero</h1>
+            <h1 className={styles.heading}>Study</h1>
             <div className={styles.tasks}>
               {tasks.map((task, index) => (
                 <Task
@@ -40,7 +40,7 @@ export default function HomePage() {
           <div className={styles.imagesBlock}>
             <div className={styles.imageGroup}>
               <Image
-                src="/hero/monkey.webp"
+                src="/study/monkey.webp"
                 alt="Summary"
                 width={300}
                 height={400}
@@ -51,7 +51,7 @@ export default function HomePage() {
                 className={styles.imageMain}
               />
               <Image
-                src="/hero/monkey.webp"
+                src="/study/monkey.webp"
                 alt="Summary"
                 width={120}
                 height={120}

@@ -27,7 +27,7 @@ export default function AboutPage() {
 
   return (
     <section className={styles.wrapper}>
-      <h1 className={styles.heading}>Lorem ipsum</h1>
+      <h1 className={styles.heading}>About</h1>
 
       {/* Top Block */}
       <div className={styles.row}>

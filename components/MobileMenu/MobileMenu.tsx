@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import styles from "./MobileMenu.module.css";
-import { navLinks } from "@/app/constant/constant";
+import { navLinks } from "@/constant/constant";
 
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);

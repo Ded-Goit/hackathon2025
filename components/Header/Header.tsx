@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import MobileMenu from "@/components/MobileMenu/MobileMenu";
 import styles from "./Header.module.css";
 import ThemeSwitcher from "@/components/ThemeSwitcher";
-import { navLinks } from "@/app/constant/constant";
+import { navLinks } from "@/constant/constant";
 
 export default function Header() {
   const pathname = usePathname();
@@ -15,7 +15,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          ГОЛОВНА
+          Hero
         </Link>
 
         <MobileMenu />
@@ -25,7 +25,7 @@ export default function Header() {
               key={link.href}
               href={link.href}
               aria-current={pathname === link.href ? "page" : undefined}
-              className={styles.navLink} // без умовного класу
+              className={styles.navLink}
             >
               {link.label}
             </Link>

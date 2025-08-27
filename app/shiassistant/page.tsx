@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import styles from "./insights.module.css";
+import styles from "./shiassistant.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Scrollbar } from "swiper/modules";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -105,7 +105,7 @@ export default function MethodsPage() {
 
   return (
     <section className={styles.wrapper}>
-      <h1 className={styles.heading}>Lorem Ipsum & Insights</h1>
+      <h1 className={styles.heading}>Shi assistant</h1>
 
       <div className={styles.sliderWrapper}>
         <button ref={prevRef} className={styles.navButton}>
@@ -154,7 +154,7 @@ export default function MethodsPage() {
 
       <div className={styles.frogImageWrapper}>
         <Image
-          src="/frogs/telefon_frog.webp"
+          src="/shiassistant/monkey.webp"
           alt="Telefon Frog"
           width={300}
           height={300}
