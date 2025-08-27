@@ -14,15 +14,15 @@ import {
 
 const team = [
   {
-    name: "Vitalii Korolkov",
-    age: 34,
-    interests: "Personal development and learning new things",
-    photo: "/team/vitalii_korolkov.webp",
-    hobby: "I enjoy saunas and going on bike rides",
-    email: "korolkovitalii@gmail.com",
+    name: "SISI CETCH",
+    age: 99,
+    interests: "88888888888888",
+    photo: "/team/image.png",
+    hobby: "888888888888888",
+    email: "8888888@gmail.com",
     socials: {
-      linkedin: "https://www.linkedin.com/in/vitalii-korolkov-1ab800339/",
-      telegram: "https://web.telegram.org/a/#330808029",
+      linkedin: "https://www.linkedin.com/",
+      telegram: "https://web.telegram.org/",
       youtube: "https://youtube.com/",
       instagram: "https://instagram.com/",
       facebook: "https://facebook.com/",
@@ -30,15 +30,15 @@ const team = [
     },
   },
   {
-    name: "Inessa",
-    age: 30,
-    interests: "Linguistics and foreign language exploration",
-    photo: "/team/inessa.webp",
-    hobby: "Traveling, reading books,engaging materials and doing sports",
-    email: "dlya.del27@gmail.com",
+    name: "SISI CETCH",
+    age: 99,
+    interests: "88888888888888",
+    photo: "/team/image.png",
+    hobby: "888888888888888",
+    email: "8888888@gmail.com",
     socials: {
-      linkedin: "https://linkedin.com/",
-      telegram: "https://t.me/",
+      linkedin: "https://www.linkedin.com/",
+      telegram: "https://web.telegram.org/",
       youtube: "https://youtube.com/",
       instagram: "https://instagram.com/",
       facebook: "https://facebook.com/",
@@ -46,17 +46,17 @@ const team = [
     },
   },
   {
-    name: "Tetiana Lvova",
-    age: 38,
-    interests: "Traveling,reading historical and psychological literature",
-    photo: "/team/tetiana_lvova.webp",
-    hobby: "Baking cakes",
-    email: "ltvlvova@gmail.com",
+    name: "SISI CETCH",
+    age: 99,
+    interests: "88888888888888",
+    photo: "/team/image.png",
+    hobby: "888888888888888",
+    email: "8888888@gmail.com",
     socials: {
-      linkedin: "https://linkedin.com/",
-      telegram: "https://t.me/",
+      linkedin: "https://www.linkedin.com/",
+      telegram: "https://web.telegram.org/",
       youtube: "https://youtube.com/",
-      instagram: "https://www.instagram.com/tl_lvova?igsh=MXhybW15aWJleGc5Yw==",
+      instagram: "https://instagram.com/",
       facebook: "https://facebook.com/",
       twitter: "https://twitter.com/",
     },
@@ -79,31 +79,15 @@ const team = [
     },
   },
   {
-    name: "Maryna Pasichnyk",
-    age: 26,
-    interests: "Self-development and achieving career success",
-    photo: "/team/maryna_pasichnyk.webp",
-    hobby: "Reading books, playing computer games, traveling",
-    email: "marikimbzenshik@gmail.com",
+    name: "SISI CETCH",
+    age: 99,
+    interests: "88888888888888",
+    photo: "/team/image.png",
+    hobby: "888888888888888",
+    email: "8888888@gmail.com",
     socials: {
-      linkedin: "https://linkedin.com/",
-      telegram: "https://web.telegram.org/a/#367969527",
-      youtube: "https://youtube.com/",
-      instagram: "https://www.instagram.com/panna_agnes?igsh=ZHM3cG55NHB4YWJr",
-      facebook: "https://www.facebook.com/bzhenchakivska?locale=uk_UA",
-      twitter: "https://twitter.com/",
-    },
-  },
-  {
-    name: "Daria",
-    age: 39,
-    interests: "Education and lifelong learning",
-    photo: "/team/daria.webp",
-    hobby: "Reading",
-    email: "daria2k7@ukr.net",
-    socials: {
-      linkedin: "https://linkedin.com/",
-      telegram: "https://web.telegram.org/a/#484211666",
+      linkedin: "https://www.linkedin.com/",
+      telegram: "https://web.telegram.org/",
       youtube: "https://youtube.com/",
       instagram: "https://instagram.com/",
       facebook: "https://facebook.com/",
@@ -111,15 +95,15 @@ const team = [
     },
   },
   {
-    name: "Nataliia Nazarovska",
-    age: 40,
-    interests: "Data analytics, self-development, and sports",
-    photo: "/team/nataliia_nazarovska.webp",
-    hobby: "Traveling and reading paper books",
-    email: "nnazarowska@gmail.com",
+    name: "SISI CETCH",
+    age: 99,
+    interests: "88888888888888",
+    photo: "/team/image.png",
+    hobby: "888888888888888",
+    email: "8888888@gmail.com",
     socials: {
-      linkedin: "https://www.linkedin.com/in/nataliia-nazarovska/",
-      telegram: "https://web.telegram.org/a/#536694160",
+      linkedin: "https://www.linkedin.com/",
+      telegram: "https://web.telegram.org/",
       youtube: "https://youtube.com/",
       instagram: "https://instagram.com/",
       facebook: "https://facebook.com/",
@@ -127,33 +111,15 @@ const team = [
     },
   },
   {
-    name: "Anton Rusanov",
-    age: 48,
-    interests:
-      "Studying data analysis and uncovering patterns behind the numbers",
-    photo: "/team/anton_rusanov.webp",
-    hobby: "Playing guitar and enjoying a good match of badminton",
-    email: "ruanvlad@gmail.com",
+    name: "SISI CETCH",
+    age: 99,
+    interests: "88888888888888",
+    photo: "/team/image.png",
+    hobby: "888888888888888",
+    email: "8888888@gmail.com",
     socials: {
-      linkedin: "https://www.linkedin.com/in/anton-ruan-rusanov",
-      telegram: "https://web.telegram.org/a/#543588586",
-      youtube: "http://www.youtube.com/@antonrusanov6149",
-      instagram: "https://instagram.com/",
-      facebook: "https://www.facebook.com/share/1AsbtgtsQT/",
-      twitter: "https://twitter.com/",
-    },
-  },
-  {
-    name: "Yuliia Artiuk",
-    age: 39,
-    interests:
-      "Career growth and travel. I enjoy working with numbers and analyzing data",
-    photo: "/team/yuliia_artiuk.webp",
-    hobby: "Baking desserts",
-    email: "artiukyu@gmail.com",
-    socials: {
-      linkedin: "https://linkedin.com/",
-      telegram: "https://web.telegram.org/a/#5753277014",
+      linkedin: "https://www.linkedin.com/",
+      telegram: "https://web.telegram.org/",
       youtube: "https://youtube.com/",
       instagram: "https://instagram.com/",
       facebook: "https://facebook.com/",
@@ -161,16 +127,15 @@ const team = [
     },
   },
   {
-    name: "Alisa Tsurukova",
-    age: 40,
-    interests: "Self-development and studying data analysis",
-    photo: "/team/alisa_tsurukova.webp",
-    hobby:
-      "Traveling, graphic novels, handcrafting (leather work, embroidery), baking",
-    email: "alisa.tsurukova@gmail.com",
+    name: "SISI CETCH",
+    age: 99,
+    interests: "88888888888888",
+    photo: "/team/image.png",
+    hobby: "888888888888888",
+    email: "8888888@gmail.com",
     socials: {
-      linkedin: "https://linkedin.com/",
-      telegram: "https://t.me/",
+      linkedin: "https://www.linkedin.com/",
+      telegram: "https://web.telegram.org/",
       youtube: "https://youtube.com/",
       instagram: "https://instagram.com/",
       facebook: "https://facebook.com/",
@@ -178,81 +143,15 @@ const team = [
     },
   },
   {
-    name: "Kateryna Rudnyk",
-    age: 25,
-    interests:
-      "Data analysis, numerical problem-solving, and performing complex calculations",
-    photo: "/team/kateryna_rudnyk.webp",
-    hobby:
-      "Staying active through sports, experimenting in the kitchen, exploring new places, and learning foreign languages",
-    email: "katyarudnik00@gmail.com",
+    name: "SISI CETCH",
+    age: 99,
+    interests: "88888888888888",
+    photo: "/team/image.png",
+    hobby: "888888888888888",
+    email: "8888888@gmail.com",
     socials: {
-      linkedin: "https://www.linkedin.com/in/katya-rudnik256h452/",
-      telegram: "https://web.telegram.org/a/#434197496",
-      youtube: "https://youtube.com/",
-      instagram: "https://www.instagram.com/iwannabeapinkwhale_/",
-      facebook: "https://www.facebook.com/profile.php?id=100008417738629",
-      twitter: "https://twitter.com/",
-    },
-  },
-  {
-    name: "Natalya",
-    age: 39,
-    interests: "Traveling and staying active through sports",
-    photo: "/team/natalya_demarchuk.webp",
-    hobby: "Baking desserts in my free time",
-    email: "nata.demarchuk@gmail.com",
-    socials: {
-      linkedin: "https://linkedin.com/",
-      telegram: "https://t.me/",
-      youtube: "https://youtube.com/",
-      instagram: "https://instagram.com/",
-      facebook: "https://facebook.com/",
-      twitter: "https://twitter.com/",
-    },
-  },
-  {
-    name: "Larysa Yevsiukova",
-    age: 52,
-    interests: "Self-development and modern information technologies",
-    photo: "/team/larysa_evsiukova.webp",
-    hobby: "Spending time in nature, growing plants, sewing",
-    email: "laraevs18@gmail.com",
-    socials: {
-      linkedin: "https://linkedin.com/",
-      telegram: "https://t.me/",
-      youtube: "https://youtube.com/",
-      instagram: "https://instagram.com/",
-      facebook: "https://facebook.com/",
-      twitter: "https://twitter.com/",
-    },
-  },
-  {
-    name: "Oleksandra Baranchuk",
-    age: 20,
-    interests: "Personal and career development",
-    photo: "/team/oleksandra-baranchuk.webp",
-    hobby: "Reading, staying active, solving logic puzzles",
-    email: "baranchukoleksandra@gmail.com",
-    socials: {
-      linkedin: "https://linkedin.com/",
-      telegram: "https://web.telegram.org/a/#1177936501",
-      youtube: "https://youtube.com/",
-      instagram: "https://www.instagram.com/asp_id0?igsh=dWtwNHp2YnV3eDM2",
-      facebook: "https://facebook.com/",
-      twitter: "https://twitter.com/",
-    },
-  },
-  {
-    name: "Anna Popko",
-    age: 26,
-    interests: "Information technology and creative professions",
-    photo: "/team/anna_popko.webp",
-    hobby: "Reading, drawing, enjoying walks in nature",
-    email: "a.popko@goit.ua",
-    socials: {
-      linkedin: "https://www.linkedin.com/in/anna-popko-1ab964272/",
-      telegram: "https://web.telegram.org/a/#381015143",
+      linkedin: "https://www.linkedin.com/",
+      telegram: "https://web.telegram.org/",
       youtube: "https://youtube.com/",
       instagram: "https://instagram.com/",
       facebook: "https://facebook.com/",
@@ -289,7 +188,7 @@ export default function TeamPage() {
 
   return (
     <section className={styles.wrapper}>
-      <h1 className={styles.headingMain}>UAnalytica</h1>
+      <h1 className={styles.headingMain}>НАЗВА КОМАНДИ</h1>
 
       <h2 className={`${styles.heading} ${styles.headingSub} ${styles.delay2}`}>
         With Ukraine in our hearts. With data in our hands.
@@ -298,8 +197,8 @@ export default function TeamPage() {
       <h3
         className={`${styles.heading} ${styles.headingDesc} ${styles.delay3}`}
       >
-        A student team from Ukraine that proves: deep analysis is power. We work
-        on real problems to change the world with the help of data.
+        СЛОГАН Team from Ukraine that proves: deep analysis is power. We work on
+        real problems to change the world with the help of data.
       </h3>
       <div className={styles.teamGrid} ref={scrollRef}>
         {team.map((member, i) => (

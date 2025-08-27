@@ -54,16 +54,16 @@ export default function ToolsPage() {
       </div>
       <div className={styles.frogBlock}>
         <Image
-          src="/frogs/tools.webp"
+          src="/tools/tools.webp"
           alt="Tools background"
           width={800} // реальний розмір або приблизний
           height={500}
           className={styles.bgImage}
         />
         <Image
-          src="/frogs/dzen_frog.webp"
+          src="/tools/dzen_frog.webp"
           alt="Zen frog"
-          width={200} // розмір для жаби
+          width={200} // розмір для вкладки
           height={200}
           className={styles.centerImage}
         />

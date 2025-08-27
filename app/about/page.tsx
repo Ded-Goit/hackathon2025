@@ -27,14 +27,14 @@ export default function AboutPage() {
 
   return (
     <section className={styles.wrapper}>
-      <h1 className={styles.heading}>About book</h1>
+      <h1 className={styles.heading}>Lorem ipsum</h1>
 
       {/* Top Block */}
       <div className={styles.row}>
         <div className={styles.colImage}>
           <Image
-            src="/summary_of_book_chapters.webp"
-            alt="Summary of Book Chapters"
+            src="/hero/monkey.webp"
+            alt="Summary"
             width={600}
             height={400}
             className={styles.image}
@@ -43,26 +43,58 @@ export default function AboutPage() {
         </div>
         <div className={styles.colText}>
           <p>
-            `Do It Now` is a book by Brian Tracy about how to break the habit of
-            putting off important things until later. It contains 21 methods for
-            overcoming procrastination.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            lobortis pretium scelerisque. Pellentesque finibus, nunc et
+            dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
+            felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
+            sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
+            lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam convallis
+            rhoncus. Donec interdum orci in diam consequat pretium. Nam pulvinar
+            turpis vel metus pharetra, ac porttitor velit placerat.
           </p>
           <blockquote className={styles.quote}>
-            «To develop the habit of focusing and concentrating, you need to
-            master three key qualities: decision, discipline, and determination»
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            lobortis pretium scelerisque. Pellentesque finibus, nunc et
+            dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
+            felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
+            sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
+            lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam convallis
+            rhoncus. Donec interdum orci in diam consequat pretium. Nam pulvinar
+            turpis vel metus pharetra, ac porttitor velit placerat.
           </blockquote>
           <ul className={styles.keyPoints}>
             <li>
-              It is the ability to prioritize, act quickly, and follow through
-              on tasks that leads to success.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              lobortis pretium scelerisque. Pellentesque finibus, nunc et
+              dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
+              felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
+              sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
+              lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam
+              convallis rhoncus. Donec interdum orci in diam consequat pretium.
+              Nam pulvinar turpis vel metus pharetra, ac porttitor velit
+              placerat.
             </li>
             <li>
-              The «frog» is a metaphor for the most unpleasant yet most
-              important task—the one you should tackle first.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              lobortis pretium scelerisque. Pellentesque finibus, nunc et
+              dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
+              felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
+              sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
+              lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam
+              convallis rhoncus. Donec interdum orci in diam consequat pretium.
+              Nam pulvinar turpis vel metus pharetra, ac porttitor velit
+              placerat.
             </li>
             <li>
-              Consistently completing such tasks builds a habit of productivity,
-              boosts self-esteem, and drives positive change.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              lobortis pretium scelerisque. Pellentesque finibus, nunc et
+              dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
+              felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
+              sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
+              lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam
+              convallis rhoncus. Donec interdum orci in diam consequat pretium.
+              Nam pulvinar turpis vel metus pharetra, ac porttitor velit
+              placerat.
             </li>
           </ul>
         </div>
@@ -72,33 +104,50 @@ export default function AboutPage() {
       <div className={styles.row}>
         <div className={styles.colText}>
           <p>
-            Brian Tracy is a Canadian-American motivational speaker, author, and
-            personal development expert. Born on January 5, 1944 in
-            Charlottetown, Prince Edward Island, Canada.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            lobortis pretium scelerisque. Pellentesque finibus, nunc et
+            dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
+            felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
+            sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
+            lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam convallis
+            rhoncus. Donec interdum orci in diam consequat pretium. Nam pulvinar
+            turpis vel metus pharetra, ac porttitor velit placerat.
           </p>
           <p>
-            He founded Brian Tracy International in 1984 in Vancouver; today it
-            is based in San Diego, California, and provides services in
-            leadership, sales, goal orientation, strategy, creativity, and the
-            psychology of success.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            lobortis pretium scelerisque. Pellentesque finibus, nunc et
+            dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
+            felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
+            sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
+            lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam convallis
+            rhoncus. Donec interdum orci in diam consequat pretium. Nam pulvinar
+            turpis vel metus pharetra, ac porttitor velit placerat.
           </p>
           <p>
-            Over the course of more than 30 years, he has written more than 80
-            books, including the bestsellers Eat That Frog!, No Excuses!, and
-            The Psychology of Achievement. He has conducted more than 5,000
-            seminars and spoken to more than 5 million people in more than 55
-            countries.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            lobortis pretium scelerisque. Pellentesque finibus, nunc et
+            dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
+            felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
+            sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
+            lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam convallis
+            rhoncus. Donec interdum orci in diam consequat pretium. Nam pulvinar
+            turpis vel metus pharetra, ac porttitor velit placerat.
           </p>
           <p>
-            Education: University of Alberta (Canada). Books: Over 80
-            publications. Do it now! sold 1.6 million copies and translated into
-            42 languages.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            lobortis pretium scelerisque. Pellentesque finibus, nunc et
+            dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
+            felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
+            sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
+            lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam convallis
+            rhoncus. Donec interdum orci in diam consequat pretium. Nam pulvinar
+            turpis vel metus pharetra, ac porttitor velit placerat.
           </p>
         </div>
         <div className={styles.colImage}>
           <Image
-            src="/brian_tracy.webp"
-            alt="Brian Tracy"
+            src="/about/monkey.webp"
+            alt="Summary"
             width={400}
             height={400}
             className={styles.imagep}
@@ -121,8 +170,8 @@ export default function AboutPage() {
               ✖
             </button>
             <Image
-              src="/summary_of_book_chapters.webp"
-              alt="Summary of Book Chapters"
+              src="/about/monkey.webp"
+              alt="Summary"
               width={1200}
               height={800}
               className={styles.modalImage}

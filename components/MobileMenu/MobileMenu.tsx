@@ -4,17 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import styles from "./MobileMenu.module.css";
-
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About book" },
-  { href: "/insights", label: "Insights" },
-  { href: "/quotes", label: "Quotes" },
-  { href: "/tools", label: "Tools" },
-  { href: "/checklist", label: "Check-List" },
-  { href: "/team", label: "Team" },
-  { href: "/resources", label: "Resources" },
-];
+import { navLinks } from "@/app/constant/constant";
 
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);
@@ -31,7 +21,7 @@ export default function MobileMenu() {
             x
           </button>
           <nav className={styles.nav}>
-            {links.map(({ href, label }) => (
+            {navLinks.map(({ href, label }) => (
               <Link
                 key={href}
                 href={href}

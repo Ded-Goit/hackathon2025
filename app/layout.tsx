@@ -1,54 +1,58 @@
 import "./globals.css";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Header from "@/components/Header/Header";
 import ThemeProvider from "@/providers/ThemeProvider";
 import Footer from "@/components/Footer/Footer";
 
+//  ЗАПОВНИТИ ВСІ ПОСИЛАННЯ ТА ШОТОООО
 export const metadata: Metadata = {
-  title: "Do It Now — Brian Tracy",
-  description: "21 methods to overcome procrastination and boost productivity.",
+  title: "ШОТОООООООООО",
+  description: "ШОТОООООООООО",
   keywords: [
-    "Brian Tracy",
-    "Do It Now",
+    "ШОТОООООООООО",
+    "ШОТОООООООООО",
     "procrastination",
     "motivation",
     "time management",
-    "21 Great Ways Book",
-    "UAnalytica",
+    "ШОТОООООООООО",
+    "ШОТОООООООООО",
   ],
-  authors: [{ name: "UAnalytica" }],
+  authors: [{ name: "ШОТОООООООООО" }],
   icons: {
     icon: "/favicon.png",
   },
-  metadataBase: new URL("https://my-book-site-nine.vercel.app"),
+  metadataBase: new URL("https://hackathon2025-beta.vercel.app/"),
   openGraph: {
-    title: "Do It Now — Brian Tracy",
-    description:
-      "21 methods to overcome procrastination and boost productivity.",
-    url: "https://my-book-site-nine.vercel.app/",
-    siteName: "Do It Now — Brian Tracy",
+    title: "ШОТОООООООООО",
+    description: "ШОТОООООООООО",
+    url: "https://hackathon2025-beta.vercel.app/",
+    siteName: "ШОТОООООООООО",
     type: "website",
     images: [
       {
-        url: "https://my-book-site-nine.vercel.app/og/do-it-now-cover.webp",
+        url: "https://my-book-site-nine.vercel.app/og/hackathon.png",
         width: 1200,
         height: 630,
-        alt: "Do It Now — Brian Tracy",
+        alt: "ШОТОООООООООО",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Do It Now — Brian Tracy",
-    description:
-      "21 methods to overcome procrastination and boost productivity.",
-    images: ["https://my-book-site-nine.vercel.app/og/do-it-now-cover.webp"],
+    title: "ШОТОООООООООО",
+    description: "ШОТОООООООООО",
+    images: ["https://my-book-site-nine.vercel.app/og/hackathon.png"],
   },
   robots: {
     index: true,
     follow: true,
   },
-  viewport: "width=device-width, initial-scale=1.0",
+};
+
+//  viewport  окремо
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1.0,
 };
 
 export default function RootLayout({
@@ -60,34 +64,28 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         {/* Canonical URL — корисно для SEO */}
-        <link rel="canonical" href="https://my-book-site-nine.vercel.app/" />
+        <link rel="canonical" href="https://hackathon2025-beta.vercel.app/" />
 
         {/* Fallback OG — дублює metadata, якщо crawler не підтримає generateMetadata */}
-        <meta property="og:title" content="Do It Now — Brian Tracy" />
-        <meta
-          property="og:description"
-          content="21 methods to overcome procrastination and boost productivity."
-        />
+        <meta property="og:title" content="ШОТОООООООООО" />
+        <meta property="og:description" content="ШОТОООООООООО" />
         <meta
           property="og:image"
-          content="https://my-book-site-nine.vercel.app/og/do-it-now-cover.webp"
+          content="https://my-book-site-nine.vercel.app/og/hackathon.png"
         />
         <meta
           property="og:url"
-          content="https://my-book-site-nine.vercel.app/"
+          content="https://hackathon2025-beta.vercel.app/"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Do It Now — Brian Tracy" />
+        <meta property="og:site_name" content="ШОТОООООООООО" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Do It Now — Brian Tracy" />
-        <meta
-          name="twitter:description"
-          content="21 methods to overcome procrastination and boost productivity."
-        />
+        <meta name="twitter:title" content="ШОТОООООООООО" />
+        <meta name="twitter:description" content="ШОТОООООООООО" />
         <meta
           name="twitter:image"
-          content="https://my-book-site-nine.vercel.app/og/do-it-now-cover.webp"
+          content="https://my-book-site-nine.vercel.app/og/hackathon.png"
         />
       </head>
       <body>

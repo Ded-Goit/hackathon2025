@@ -4,16 +4,19 @@ import FrogTask from "@/components/FrogTask/FrogTask";
 
 const tasks = [
   {
-    title: "«Eat a frog»",
-    description: "Start your day with the most difficult task",
+    title: "«Lorem Ipsum»",
+    description:
+      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Нет никого, кто любил бы боль саму по себе, кто искал бы её и кто хотел бы иметь её просто потому, что это боль..",
   },
   {
-    title: "«Focus without distractions»",
-    description: "Allocate 90 minutes to work without interruption",
+    title: "«Lorem Ipsum»",
+    description:
+      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Нет никого, кто любил бы боль саму по себе, кто искал бы её и кто хотел бы иметь её просто потому, что это боль..",
   },
   {
-    title: "«Plan your day»",
-    description: "Write down 3 key goals every morning",
+    title: "«Lorem Ipsum»",
+    description:
+      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Нет никого, кто любил бы боль саму по себе, кто искал бы её и кто хотел бы иметь её просто потому, что это боль..",
   },
 ];
 
@@ -23,7 +26,7 @@ export default function HomePage() {
       <section className={styles.hero}>
         <div className={styles.content}>
           <div className={styles.textBlock}>
-            <h1 className={styles.heading}>«Do It Now» by Brian Tracy</h1>
+            <h1 className={styles.heading}>Lorem Ipsum</h1>
             <div className={styles.tasks}>
               {tasks.map((task, index) => (
                 <FrogTask
@@ -37,8 +40,8 @@ export default function HomePage() {
           <div className={styles.imagesBlock}>
             <div className={styles.imageGroup}>
               <Image
-                src="/book.webp"
-                alt="book Do it Now"
+                src="/hero/monkey.webp"
+                alt="Summary"
                 width={300}
                 height={400}
                 sizes="(max-width: 480px) 200px,
@@ -48,8 +51,8 @@ export default function HomePage() {
                 className={styles.imageMain}
               />
               <Image
-                src="/frogs/frog_with_red_legs.webp"
-                alt="frog"
+                src="/hero/monkey.webp"
+                alt="Summary"
                 width={120}
                 height={120}
                 className={styles.imageFrog}

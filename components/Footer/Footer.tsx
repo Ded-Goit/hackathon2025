@@ -9,7 +9,7 @@ export default function Footer() {
       <p className={styles.text}>
         &copy; {new Date().getFullYear()} Do It Now |{" "}
         <Link href="/team" className={styles.link}>
-          team UAnalytica
+          НАЗВА КОМАНДИ
         </Link>{" "}
         &{" "}
         <a
