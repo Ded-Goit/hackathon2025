@@ -43,59 +43,27 @@ export default function AboutPage() {
         </div>
         <div className={styles.colText}>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            lobortis pretium scelerisque. Pellentesque finibus, nunc et
-            dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
-            felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
-            sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
-            lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam convallis
-            rhoncus. Donec interdum orci in diam consequat pretium. Nam pulvinar
-            turpis vel metus pharetra, ac porttitor velit placerat.
+            Допомагати людям працювати усвідомлено, без вигорання і зайвого
+            тиску. Продуктивність має бути не жорсткою, а здоровою — з повагою
+            до власного ритму, енергії та життя поза роботою.
           </p>
           <blockquote className={styles.quote}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            lobortis pretium scelerisque. Pellentesque finibus, nunc et
-            dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
-            felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
-            sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
-            lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam convallis
-            rhoncus. Donec interdum orci in diam consequat pretium. Nam pulvinar
-            turpis vel metus pharetra, ac porttitor velit placerat.
+            Нас надихнула книга «З’їж ту жабу» Браяна Трейсі та пошук балансу
+            між ефективністю і самоповагою. Ми — команда ІТ-спеціалістів, які
+            самі пройшли через багатозадачність, вигорання і хаос дедлайнів.
+            Тому створили асистента, який не тисне, а підтримує. Не нав’язує
+            ритм — а підлаштовується під твій.
           </blockquote>
+          <p>
+            Ми — команда ІТ-спеціалістів, які поєднують досвід у QA, UX-дизайні,
+            аналітиці, автоматизації та продукт-менеджменті. Ми самі проходили
+            шлях багатозадачності, дедлайнів і вигорання — тому створили
+            платформу, яка підтримує здорову продуктивність і адаптується до
+            твого ритму.
+          </p>
           <ul className={styles.keyPoints}>
-            <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              lobortis pretium scelerisque. Pellentesque finibus, nunc et
-              dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
-              felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
-              sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
-              lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam
-              convallis rhoncus. Donec interdum orci in diam consequat pretium.
-              Nam pulvinar turpis vel metus pharetra, ac porttitor velit
-              placerat.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              lobortis pretium scelerisque. Pellentesque finibus, nunc et
-              dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
-              felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
-              sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
-              lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam
-              convallis rhoncus. Donec interdum orci in diam consequat pretium.
-              Nam pulvinar turpis vel metus pharetra, ac porttitor velit
-              placerat.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              lobortis pretium scelerisque. Pellentesque finibus, nunc et
-              dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
-              felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
-              sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
-              lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam
-              convallis rhoncus. Donec interdum orci in diam consequat pretium.
-              Nam pulvinar turpis vel metus pharetra, ac porttitor velit
-              placerat.
-            </li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
           </ul>
         </div>
       </div>
@@ -103,46 +71,10 @@ export default function AboutPage() {
       {/* Author Block */}
       <div className={styles.row}>
         <div className={styles.colText}>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            lobortis pretium scelerisque. Pellentesque finibus, nunc et
-            dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
-            felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
-            sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
-            lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam convallis
-            rhoncus. Donec interdum orci in diam consequat pretium. Nam pulvinar
-            turpis vel metus pharetra, ac porttitor velit placerat.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            lobortis pretium scelerisque. Pellentesque finibus, nunc et
-            dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
-            felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
-            sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
-            lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam convallis
-            rhoncus. Donec interdum orci in diam consequat pretium. Nam pulvinar
-            turpis vel metus pharetra, ac porttitor velit placerat.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            lobortis pretium scelerisque. Pellentesque finibus, nunc et
-            dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
-            felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
-            sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
-            lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam convallis
-            rhoncus. Donec interdum orci in diam consequat pretium. Nam pulvinar
-            turpis vel metus pharetra, ac porttitor velit placerat.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            lobortis pretium scelerisque. Pellentesque finibus, nunc et
-            dignissim laoreet, augue velit venenatis lorem, at vestibulum arcu
-            felis quis mauris. Aenean pharetra nulla mi, vel varius tellus
-            sagittis ut. Proin sed sapien non mi hendrerit elementum nec ac
-            lectus. Sed ac accumsan mauris. Curabitur sed lacus a quam convallis
-            rhoncus. Donec interdum orci in diam consequat pretium. Nam pulvinar
-            turpis vel metus pharetra, ac porttitor velit placerat.
-          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className={styles.colImage}>
           <Image

@@ -6,17 +6,7 @@ const tasks = [
   {
     title: "«Lorem Ipsum»",
     description:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Нет никого, кто любил бы боль саму по себе, кто искал бы её и кто хотел бы иметь её просто потому, что это боль..",
-  },
-  {
-    title: "«Lorem Ipsum»",
-    description:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Нет никого, кто любил бы боль саму по себе, кто искал бы её и кто хотел бы иметь её просто потому, что это боль..",
-  },
-  {
-    title: "«Lorem Ipsum»",
-    description:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Нет никого, кто любил бы боль саму по себе, кто искал бы её и кто хотел бы иметь её просто потому, что это боль..",
+      "Платформа, що працює в унісон з тобою. Ми створили інструмент, який адаптується до твого стилю життя, підтримує твої проєкти і допомагає досягати результатів без зайвого шуму.",
   },
 ];
 
@@ -26,7 +16,9 @@ export default function HomePage() {
       <section className={styles.hero}>
         <div className={styles.content}>
           <div className={styles.textBlock}>
-            <h1 className={styles.heading}>Hero</h1>
+            <h1 className={styles.heading}>
+              Твій час. Твій ритм. Твій асистент.
+            </h1>
             <div className={styles.tasks}>
               {tasks.map((task, index) => (
                 <Task
