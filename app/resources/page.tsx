@@ -20,9 +20,9 @@ export default function ResourcesPage() {
 
   const resources = [
     {
-      title: "freeCodeCamp",
+      title: "Freecodecamp",
       description: "Our mission: to help people learn to code for free.",
-      icon: <FaBookOpen />,
+      icon: <HiOutlineLightBulb />,
       link: "https://www.freecodecamp.org/learn",
       category: "Course",
     },
@@ -34,10 +34,24 @@ export default function ResourcesPage() {
       category: "Course",
     },
     {
+      title: "GoIT",
+      description: "library of free microcourses",
+      icon: <HiOutlineLightBulb />,
+      link: "https://allmarathons-lp-ua.goit.global/",
+      category: "Course",
+    },
+    {
       title: "Prometheus",
       description: "Free Ukrainian online education.",
       icon: <HiOutlineLightBulb />,
       link: "https://prometheus.org.ua",
+      category: "Course",
+    },
+    {
+      title: "Neoversity",
+      description: "European higher education for new IT leaders",
+      icon: <HiOutlineLightBulb />,
+      link: "https://neoversity.com.ua/",
       category: "Course",
     },
     {

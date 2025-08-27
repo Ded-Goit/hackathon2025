@@ -7,13 +7,8 @@
 
 /* -------- THEME VARIABLES -------- */
 :root {
+  /* Шрифти */
   --font-main: "Inter", sans-serif;
-
-  --swiper-scrollbar-border-radius: 8px !important;
-  --swiper-scrollbar-size: 6px !important;
-  --swiper-scrollbar-bottom: 8px !important;
-  --swiper-scrollbar-bg-color: rgba(255, 255, 255, 0.1) !important;
-  --swiper-scrollbar-drag-bg-color: var(--accent, #8bc34a) !important;
 
   /* Mobile First: dark theme за замовчуванням */
   --bg: #000;
@@ -27,6 +22,13 @@
   --transition-base: 0.3s ease;
   --pagination-bullet: #555; /* темніші смужки */
   --pagination-bullet-active: var(--accent, #8bc34a); /* яскравий акцент */
+
+  /* Кольори бібліотек темна тема */
+  --swiper-scrollbar-border-radius: 8px !important;
+  --swiper-scrollbar-size: 6px !important;
+  --swiper-scrollbar-bottom: 8px !important;
+  --swiper-scrollbar-bg-color: rgba(255, 255, 255, 0.1) !important;
+  --swiper-scrollbar-drag-bg-color: var(--accent, #8bc34a) !important;
 }
 
 /* Light theme overrides */
@@ -35,9 +37,10 @@ html.light {
   --text: #1c1f23;
   --accent: rgb(44, 62, 80);
   --accent-rgb: rgb(44, 62, 80);
-
   --card-bg: #fff;
   --card-shadow: rgba(0, 0, 0, 0.1);
+
+  /* Кольори бібліотек світла тема */
   --swiper-scrollbar-bg-color: rgba(0, 0, 0, 0.1) !important;
   --swiper-scrollbar-drag-bg-color: var(--accent, #0057b7) !important;
 }
@@ -92,26 +95,4 @@ textarea {
   background: none;
   cursor: pointer;
 }
-
-.layout {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.content {
-  flex: 1 0 auto;
-  padding: 1rem;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.footer {
-  margin-top: auto;
-  padding: 1rem;
-  background-color: var(--card-bg);
-  text-align: center;
-  font-size: 0.9rem;
-  color: #aaa;
-}
+/* -------- ДОПИСАТИ ДЛЯ СЕКЦІЙ МЕДІАПРАВИЛА -------- */
