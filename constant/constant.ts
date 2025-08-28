@@ -1,5 +1,6 @@
 export const navLinks = [
   { href: "/about", label: "About" },
+  { href: "/book", label: "About book" },
   { href: "/shiassistant", label: "Shi assistant" },
   { href: "/tools", label: "Tools" },
   { href: "/study", label: "Study" },
